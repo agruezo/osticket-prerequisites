@@ -30,15 +30,25 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h2>Installation Steps</h2>
 <h3 align="center">Connect to your Virtual Machine with Remote Desktop</h3>
 <br />
+<p>
+	<img src="https://i.imgur.com/DJmEXEB.png" height="75%" width="100%" alt="Disk Sanitization Steps"/>
+</p>
+<br />
 <br />
 <h3 align="center">Install / Enable IIS in Windows</h3>
 <br />
+<p>
+	<img src="https://i.imgur.com/DJmEXEB.png" height="75%" width="100%" alt="Disk Sanitization Steps"/>
+</p>
 <br />
 <br />
 <h3 align="center">Install Web Platform Installer</h3>
 <br />
 <p>
   Open after installation:
+</p>
+<p>
+	<img src="https://i.imgur.com/DJmEXEB.png" height="75%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 <p>
@@ -51,7 +61,13 @@ This tutorial outlines the prerequisites and installation of the open-source hel
   Password: Password1:
 </p>
 <p>
+	<img src="https://i.imgur.com/DJmEXEB.png" height="75%" width="100%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
   Add All simple versions of x86 PHP up until 7.3:
+</p>
+<p>
+	<img src="https://i.imgur.com/DJmEXEB.png" height="75%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
   Fix any failures if required. 
@@ -65,6 +81,9 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <p>
   Install Microsoft Visual C++ 2009 Redistributable Package:
 </p>
+<p>
+	<img src="https://i.imgur.com/DJmEXEB.png" height="75%" width="100%" alt="Disk Sanitization Steps"/>
+</p>
 <br />
 <br />
 <h3 align="center">Install osTicket v1.15.8</h3>
@@ -77,6 +96,9 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </p>
 	Within c:\inetpub\wwwroot, Rename “upload” to “osTicket”:
 </p>
+<p>
+	<img src="https://i.imgur.com/DJmEXEB.png" height="75%" width="100%" alt="Disk Sanitization Steps"/>
+</p>
 <br />
 <br />
 <h3 align="center">Reload IIS (Open IIS, Stop and Start the server)</h3>
@@ -85,7 +107,13 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 	Go to sites -> Default -> osTicket:
 </p>
 <p>
+	<img src="https://i.imgur.com/DJmEXEB.png" height="75%" width="100%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
 	On the right, click “Browse *:80”:
+</p>
+<p>
+	<img src="https://i.imgur.com/DJmEXEB.png" height="75%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 <br />
@@ -95,32 +123,48 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 	Go back to IIS, sites -> Default -> osTicket:
 </p>
 <p>
+	<img src="https://i.imgur.com/DJmEXEB.png" height="75%" width="100%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
 	Double-click PHP Manager:
 </p>
 <p>
-	Click “Enable or disable an extension”
+	<img src="https://i.imgur.com/DJmEXEB.png" height="75%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-	Enable: php_imap.dll
+	Click “Enable or disable an extension”.
 </p>
 <p>
-	Enable: php_intl.dll
+	Enable: php_imap.dll.
+</p>
+<p>
+	Enable: php_intl.dll.
 </p>
 <p>
 	Enable: php_opcache.dll:
+</p>
+<p>
+	<img src="https://i.imgur.com/DJmEXEB.png" height="75%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 <br />
 <h3 align="center">Refresh the osTicket site in your browser, observe the changes</h3>
 <br />
+<p>
+	<img src="https://i.imgur.com/DJmEXEB.png" height="75%" width="100%" alt="Disk Sanitization Steps"/>
+</p>
+<br />
 <br />
 <h3 align="center">Rename</h3>
 <br />
 <p>
-	From: C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php
+	From: C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php.
 </p>
 <p>
 	To: C:\inetpub\wwwroot\osTicket\include\ost-config.php:
+</p>
+<p>
+	<img src="https://i.imgur.com/DJmEXEB.png" height="75%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 <br />
@@ -130,17 +174,26 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 	Disable inheritance -> Remove All:
 </p>
 <p>
+	<img src="https://i.imgur.com/DJmEXEB.png" height="75%" width="100%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
 	New Permissions -> Everyone -> All:
+</p>
+<p>
+	<img src="https://i.imgur.com/DJmEXEB.png" height="75%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 <br />
 <h3 align="center">Continue Setting up osTicket in the browser (click Continue)</h3>
 <br />
 <p>
-	Name Helpdesk
+	Name Helpdesk.
 </p>
 <p>
 	Default email (receives email from customers):
+</p>
+<p>
+	<img src="https://i.imgur.com/DJmEXEB.png" height="75%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 <br />
@@ -150,10 +203,19 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 	Create a new session, root/Password1:
 </p>
 <p>
+	<img src="https://i.imgur.com/DJmEXEB.png" height="75%" width="100%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
 	Connect to the session:
 </p>
 <p>
+	<img src="https://i.imgur.com/DJmEXEB.png" height="75%" width="100%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
 	Create a database called “osTicket”:
+</p>
+<p>
+	<img src="https://i.imgur.com/DJmEXEB.png" height="75%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 <br />
@@ -161,22 +223,24 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <br />
 <br />
 <br />
-<h3 align="center">MySQL Database: osTicket</h3>
-<br />
+<p>MySQL Database: osTicket</p>
 <p>
 	MySQL Username: root
 </p>
 <p>
 	MySQL Password: Password1:
 </p>
-<br />
-<br />
-<h3 align="center">Click “Install Now!”</h3>
-<br />
-<br />
-<br />
-<h3 align="center">Congratulations, hopefully it is installed with no errors!</h3>
-<br />
+<p>
+	<img src="https://i.imgur.com/DJmEXEB.png" height="75%" width="100%" alt="Disk Sanitization Steps"/>
+</p>
+<p>Click “Install Now!”</p>
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>Congratulations, hopefully it is installed with no errors!</hp>
+<p>
+	<img src="https://i.imgur.com/DJmEXEB.png" height="75%" width="100%" alt="Disk Sanitization Steps"/>
+</p>
 <br />
 <br />
 <h3 align="center">Clean up</h3>
@@ -185,12 +249,21 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 	Delete: C:\inetpub\wwwroot\osTicket\setup:
 </p>
 <p>
+	<img src="https://i.imgur.com/DJmEXEB.png" height="75%" width="100%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
 	Set Permissions to “Read” only: C:\inetpub\wwwroot\osTicket\include\ost-config.php:
+</p>
+<p>
+	<img src="https://i.imgur.com/DJmEXEB.png" height="75%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 <br />
 <h3 align="center">Login to the osTicket Admin Panel (http://localhost/osTicket/scp/login.php)</h3>
 <br />
+<p>
+	<img src="https://i.imgur.com/DJmEXEB.png" height="75%" width="100%" alt="Disk Sanitization Steps"/>
+</p>
 <br />
 <br />
 <!-- <p>
