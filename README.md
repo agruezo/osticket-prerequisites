@@ -35,6 +35,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <br />
 <br />
 <h3 align="center">Install Web Platform Installer</h3>
+<br />
 <p>
   Open after installation:
 </p>
@@ -48,14 +49,21 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <p>
   Password: Password1:
 </p>
-<br />
 <p>
   Add All simple versions of x86 PHP up until 7.3:
 </p>
+<p>
   Fix any failures if required 
-Install PHP Version 7.3.8 (or any other version if necessary, archives)
-Install PHP Manager 1.5.0 for IIS 10 (folder you unzipped on the desktop)
-Install Microsoft Visual C++ 2009 Redistributable Package
+</p>
+<p>
+  Install PHP Version 7.3.8 (or any other version if necessary, archives)
+</p>
+<p>
+  Install PHP Manager 1.5.0 for IIS 10 (folder you unzipped on the desktop)
+</p>
+<p>
+  Install Microsoft Visual C++ 2009 Redistributable Package:
+</p>
 <br />
 <br />
 <h3 align="center">Install osTicket v1.15.8</h3>
