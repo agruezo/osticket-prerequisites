@@ -34,6 +34,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h3 align="center">Install / Enable IIS in Windows</h3>
 <br />
 <br />
+<br />
 <h3 align="center">Install Web Platform Installer</h3>
 <br />
 <p>
@@ -41,7 +42,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </p>
 <br />
 <p>
-  Add MySQL 5.5 (it will ask for credentials to be created later)
+  Add MySQL 5.5 (it will ask for credentials to be created later).
 </p>
 <p>
   Name: root
@@ -53,13 +54,13 @@ This tutorial outlines the prerequisites and installation of the open-source hel
   Add All simple versions of x86 PHP up until 7.3:
 </p>
 <p>
-  Fix any failures if required 
+  Fix any failures if required. 
 </p>
 <p>
-  Install PHP Version 7.3.8 (or any other version if necessary, archives)
+  Install PHP Version 7.3.8 (or any other version if necessary, archives).
 </p>
 <p>
-  Install PHP Manager 1.5.0 for IIS 10 (folder you unzipped on the desktop)
+  Install PHP Manager 1.5.0 for IIS 10 (folder you unzipped on the desktop).
 </p>
 <p>
   Install Microsoft Visual C++ 2009 Redistributable Package:
@@ -69,70 +70,127 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h3 align="center">Install osTicket v1.15.8</h3>
 <br />
 <p>
-  Download osTicket (download from within lab files: link)
+  Download osTicket (download from within lab files: link).
 </p>
-Extract and copy the “upload” folder INTO c:\inetpub\wwwroot
-Within c:\inetpub\wwwroot, Rename “upload” to “osTicket”
+<p>
+	Extract and copy the “upload” folder INTO c:\inetpub\wwwroot.
+</p>
+	Within c:\inetpub\wwwroot, Rename “upload” to “osTicket”:
+</p>
 <br />
 <br />
 <h3 align="center">Reload IIS (Open IIS, Stop and Start the server)</h3>
-Go to sites -> Default -> osTicket
-On the right, click “Browse *:80”
+<br />
+<p>
+	Go to sites -> Default -> osTicket:
+</p>
+<p>
+	On the right, click “Browse *:80”:
+</p>
 <br />
 <br />
 <h3 align="center">Enable Extensions in IIS: Note that some extensions are not enabled</h3>
-Go back to IIS, sites -> Default -> osTicket
-Double-click PHP Manager
-Click “Enable or disable an extension”
-Enable: php_imap.dll
-Enable: php_intl.dll
-Enable: php_opcache.dll
+<br />
+<p>
+	Go back to IIS, sites -> Default -> osTicket:
+</p>
+<p>
+	Double-click PHP Manager:
+</p>
+<p>
+	Click “Enable or disable an extension”
+</p>
+<p>
+	Enable: php_imap.dll
+</p>
+<p>
+	Enable: php_intl.dll
+</p>
+<p>
+	Enable: php_opcache.dll:
+</p>
 <br />
 <br />
 <h3 align="center">Refresh the osTicket site in your browser, observe the changes</h3>
 <br />
 <br />
 <h3 align="center">Rename</h3>
-From: C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php
-	To: C:\inetpub\wwwroot\osTicket\include\ost-config.php
+<br />
+<p>
+	From: C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php
+</p>
+<p>
+	To: C:\inetpub\wwwroot\osTicket\include\ost-config.php:
+</p>
 <br />
 <br />
 <h3 align="center">Assign Permissions: ost-config.php</h3>
-Disable inheritance -> Remove All
-New Permissions -> Everyone -> All
+<br />
+<p>
+	Disable inheritance -> Remove All:
+</p>
+<p>
+	New Permissions -> Everyone -> All:
+</p>
 <br />
 <br />
 <h3 align="center">Continue Setting up osTicket in the browser (click Continue)</h3>
-Name Helpdesk
-Default email (receives email from customers)
+<br />
+<p>
+	Name Helpdesk
+</p>
+<p>
+	Default email (receives email from customers):
+</p>
 <br />
 <br />
 <h3 align="center">Download and Install HeidiSQL (download from within lab files: link)</h3>
-Create a new session, root/Password1
-Connect to the session
-Create a database called “osTicket”
+<br />
+<p>
+	Create a new session, root/Password1:
+</p>
+<p>
+	Connect to the session:
+</p>
+<p>
+	Create a database called “osTicket”:
+</p>
 <br />
 <br />
 <h3 align="center">Continue Setting up osticket in the browser</h3>
 <br />
 <br />
+<br />
 <h3 align="center">MySQL Database: osTicket</h3>
-MySQL Username: root
-MySQL Password: Password1
+<br />
+<p>
+	MySQL Username: root
+</p>
+<p>
+	MySQL Password: Password1:
+</p>
 <br />
 <br />
 <h3 align="center">Click “Install Now!”</h3>
 <br />
 <br />
+<br />
 <h3 align="center">Congratulations, hopefully it is installed with no errors!</h3>
 <br />
 <br />
+<br />
 <h3 align="center">Clean up</h3>
-Delete: C:\inetpub\wwwroot\osTicket\setup
-Set Permissions to “Read” only: C:\inetpub\wwwroot\osTicket\include\ost-config.php
+<br />
+<p>
+	Delete: C:\inetpub\wwwroot\osTicket\setup:
+</p>
+<p>
+	Set Permissions to “Read” only: C:\inetpub\wwwroot\osTicket\include\ost-config.php:
+</p>
 <br />
 <br />
 <h3 align="center">Login to the osTicket Admin Panel (http://localhost/osTicket/scp/login.php)</h3>
+<br />
 <br />
 <br />
 <!-- <p>
