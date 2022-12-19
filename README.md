@@ -22,14 +22,29 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>List of Prerequisites</h2>
 
-- Item 1
-- Item 2
-- Item 3
-- Item 4
-- Item 5
+- Create Virtual Machine in Azure
+- Install Web Platform Installer
+- Install osTicket v1.15.8
+- Install HeidiSQL
 
 <h2>Installation Steps</h2>
-
+<h3 align="center">Connect to your Virtual Machine with Remote Desktop</h3>
+<h3 align="center">Install / Enable IIS in Windows</h3>
+<h3 align="center">Install Web Platform Installer</h3>
+<h3 align="center">Install osTicket v1.15.8</h3>
+<h3 align="center">Reload IIS (Open IIS, Stop and Start the server)</h3>
+<h3 align="center">Enable Extensions in IIS: Note that some extensions are not enabled</h3>
+<h3 align="center">Refresh the osTicket site in your browse, observe the changes</h3>
+<h3 align="center">Rename</h3>
+<h3 align="center">Assign Permissions: ost-config.php</h3>
+<h3 align="center">Continue Setting up osTicket in the browser (click Continue)</h3>
+<h3 align="center">Download and Install HeidiSQL (download from within lab files: link)</h3>
+<h3 align="center">Continue Setting up osticket in the browser</h3>
+<h3 align="center">MySQL Database: osTicket</h3>
+<h3 align="center">Click “Install Now!”</h3>
+<h3 align="center">Congratulations, hopefully it is installed with no errors!</h3>
+<h3 align="center">Clean up</h3>
+<h3 align="center">Login to the osTicket Admin Panel (http://localhost/osTicket/scp/login.php)</h3>
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
